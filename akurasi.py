@@ -1,4 +1,4 @@
-def hitung_akurasi(tokenizer_tokens_list_list: list[list[str]], gold_std_tokens_list: list[list[str]]):
+def hitung_akurasi(tokenizer_tokens_list: list[list[str]], gold_std_tokens_list: list[list[str]]):
     """
     Fungsi ini menghitung akurasi dari hasil tokenisasi suatu tokenizer
     terhadap hasil tokenisasi gold standard (asumsikan bahwa fungsi ini
